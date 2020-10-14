@@ -16,8 +16,8 @@ mongoose
   .catch((err) => console.log(err));
 
 // Middlewares
-app.use(cors());
 app.use(express.json());
+app.use(cors());
 
 // API Endpoint
 app.get("/", (req, res) => {
