@@ -45,7 +45,7 @@ app.get("/tinder/cards", (req, res) => {
 });
 
 // App listner
-const PORT = 9000;
+const PORT = 4040;
 app.listen(PORT, () => {
   console.log(`Server Start with port ${PORT} ==> http://localhost:${PORT} `);
 });
